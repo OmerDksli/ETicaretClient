@@ -12,9 +12,7 @@ import { CompenentsModule } from './compenents/compenents.module';
     CommonModule,
     LayoutModule,
     CompenentsModule
-  ],
-  exports:[LayoutModule,
-    CompenentsModule
   ]
+  
 })
 export class AdminModule { }
